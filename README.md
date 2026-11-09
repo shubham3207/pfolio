@@ -53,7 +53,7 @@ The repository is https://github.com/shubham3207/pfolio, deployed on Render as a
 
 **One-time setup on Render**
 
-1. In Render, choose **New → Blueprint**, connect the `pfolio` repository and apply `render.yaml`. It creates the `pfolio` web service: `npm ci && npm run build`, then `npm run start`, Node 22 (from `.node-version`), health check on `/`.
+1. In Render, choose **New → Blueprint**, connect the `pfolio` repository and apply `render.yaml`. It creates the `shubhamsapkota` web service (https://shubhamsapkota.onrender.com): `npm ci && npm run build`, then `npm run start`, Node 22 (from `.node-version`), health check on `/`.
 2. Optional: once you have a custom domain, add `NEXT_PUBLIC_SITE_URL=https://your-domain.com` under the service's **Environment** so canonical URLs, Open Graph tags and the sitemap use it. Without it, Render's own URL (`RENDER_EXTERNAL_URL`) is used.
 
 **How a change goes live**
