@@ -1,0 +1,24 @@
+Technology logos used on this site. All marks are trademarks of their respective owners
+and are shown only to identify tools used in this portfolio.
+
+Devicon (MIT License) — https://github.com/devicons/devicon
+  python, pandas, numpy, scikitlearn, apachespark, apacheairflow, postgresql, docker,
+  git, githubactions, pytest, plotly, streamlit, amazonwebservices
+
+Simple Icons (CC0 1.0) — https://github.com/simple-icons/simple-icons
+  databricks (coloured with its official brand hex #FF3621)
+
+Microsoft Power BI Icons (CC BY 4.0) — https://github.com/microsoft/PowerBI-Icons
+  powerbi — "Power BI" icon © Microsoft Corporation, licensed under CC BY 4.0
+  (https://creativecommons.org/licenses/by/4.0/). Unmodified.
+
+XGBoost (Apache-2.0 project) — https://github.com/dmlc/dmlc.github.io (img/logo-m/xgboost.png)
+  xgboost.png — the blue "X" cropped from the official XGBoost logo; not redrawn or recoloured.
+
+SHAP (MIT project) — https://github.com/shap/shap (docs/artwork/logo.png)
+  shap.png — the blue "shap" hexagon cropped from the official SHAP logo; not redrawn or recoloured.
+
+vscode-icons (MIT License) — https://github.com/vscode-icons/vscode-icons
+  excel.svg (file-type-excel), sql.svg (file-type-sql). SQL is a language standard with no
+  official logo; this is the icon VS Code uses for .sql files. The Excel icon depicts Microsoft
+  Excel, a trademark of Microsoft Corporation.

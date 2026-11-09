@@ -1,0 +1,17 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# One Node web service. Render rebuilds on every push to main, but only once the GitHub Actions
+# checks for that commit have passed, and it switches traffic to the new version only after its
+# health check succeeds, so the running site stays up during deploys and on a failed build.
+services:
+  - type: web
+    name: pfolio
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
